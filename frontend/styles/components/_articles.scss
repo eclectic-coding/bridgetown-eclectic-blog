@@ -1,0 +1,25 @@
+.article {
+
+  &__heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__meta {
+
+  }
+
+  &__tags span {
+    background-color: var(--color-bg-dark2);
+    color: var(--color-primary2);
+    font-weight: bolder;
+    margin: 0 1rem;
+    padding: 0 0.7rem;
+    border-radius: 0.5rem;
+
+    &::before {
+      content: "#";
+    }
+  }
+}
+

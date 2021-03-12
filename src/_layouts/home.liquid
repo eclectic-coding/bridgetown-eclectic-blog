@@ -4,4 +4,17 @@ layout: default
 
 <h1>Home Page</h1>
 
+<div>
+   {% for post in site.posts %}
+       <a href="{{ post.url |  prepend: site.baseurl }}">
+           <div>
+               <time datetime="{{ post.date }}">{{ post.date |  date: "%B %d, %Y" }}</time>
+               <h1>{{ post.title }}</h1>
+               <div>---</div>
+
+               <p>{{ post.content | strip_html | truncatewords: 65 }}</p>
+           </div>
+       </a>
+    {% endfor %}
+</div>
 {{ content }}

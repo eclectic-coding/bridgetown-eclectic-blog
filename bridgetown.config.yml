@@ -19,6 +19,8 @@ baseurl: "" # OPTIONAL: the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
-template_engine: erb
+
+pagination:
+  enabled: true
 
 # timezone: America/Los_Angeles

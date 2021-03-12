@@ -1,0 +1,20 @@
+---
+layout: default
+template_engine: erb
+---
+
+<div class="article__heading">
+    <h1><%= page.data.title %></h1>
+    <small class="article__meta">Posted <%= page.date.strftime("%b %d, %Y") %></small>
+    <div class="article__tags">
+        <% if page.data.tags %>
+            <% page.data.tags.each do |tag| %>
+            <span class="article__tags"><%= tag %></span>
+            <% end %>
+        <% end %>
+    </div>
+</div>
+
+<article>
+    <%= content %>
+</article>
