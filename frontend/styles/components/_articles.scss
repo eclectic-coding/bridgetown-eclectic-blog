@@ -2,7 +2,11 @@
 
   &__heading {
     text-align: center;
-    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
   }
 
   &__meta {
@@ -10,9 +14,9 @@
   }
 
   &__tags span {
-    background-color: var(--color-bg-dark2);
-    color: var(--color-primary2);
-    font-weight: bolder;
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
+    font-weight: 600;
     margin: 0 1rem;
     padding: 0 0.7rem;
     border-radius: 0.5rem;
