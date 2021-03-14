@@ -2,8 +2,8 @@
   &__catalog {
 
     &--item {
-      border-bottom: 1px solid $grey-2;
-      color: $default-color;
+      border-bottom: 1px solid var(--color-grey-light);
+      color: var(--color-on-surface);
       display: inline-block;
       padding: 3rem 0;
 
@@ -18,13 +18,13 @@
     }
 
     &--time {
-      color: $default-tint;
+      color: var(--color-grey-darkest);
       font-family: $sans-serif;
       letter-spacing: .5px;
     }
 
     &--title {
-      color: $default-shade;
+      color: var(--color-on-surface);
       display: block;
       font-family: $sans-serif;
       font-size: 3rem;
@@ -34,7 +34,7 @@
 
     &--line {
       @include transition(all .3s ease-out);
-      border-top: .3rem solid $default-shade;
+      border-top: .3rem solid var(--color-on-surface);
       display: block;
       width: 5rem;
     }
@@ -42,7 +42,7 @@
   }
 
   &__pagination {
-    border-top: .5px solid $grey-2;
+    border-top: .5px solid var(--color-grey-lightest);
     font-family: $sans-serif;
     padding-top: 3rem;
     position: relative;
