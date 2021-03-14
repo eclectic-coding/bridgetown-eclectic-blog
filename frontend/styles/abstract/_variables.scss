@@ -1,5 +1,6 @@
 // Fonts
-$sans-serif: 'Poppins', 'Segoe UI', Helvetica, Arial, sans-serif;
+$sans-serif: 'Open Sans', sans-serif;
+$title-font: 'Roboto', sans-serif;
 $monospaced: Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
