@@ -3,10 +3,7 @@
 @import "base/code";
 @import "base/typography";
 @import "components/articles";
-
-h1, nav, footer {
-  text-align: center;
-}
+@import "pages/home";
 
 main {
   margin: 4rem auto;
