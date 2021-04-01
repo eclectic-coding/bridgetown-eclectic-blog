@@ -1,0 +1,47 @@
+.nav {
+  box-shadow: 0 2px 2px -2px lightgray;
+  overflow: auto;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1rem auto;
+    max-width: 60rem;
+    position: relative;
+    text-align: center;
+  }
+
+  &__title {
+    color: var(--color-on-surface);
+    display: inline-block;
+    margin: 0;
+    padding-right: .2rem;
+    transition: all .2s ease-out;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
+  }
+
+  &__social-icons {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    font-size: 1.3rem;
+    margin: 0;
+
+    .fa, .fas, .fab {
+      vertical-align: center;
+      margin-left: 1rem;
+      color: var(--color-on-surface);
+      transition: all .2s ease-out;
+
+      &:hover,
+      &:focus {
+        color: var(--color-primary);
+      }
+    }
+  }
+}

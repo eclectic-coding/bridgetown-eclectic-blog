@@ -1,5 +1,20 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/posts">Posts</a>
+<nav class="nav">
+    <div class="nav__container">
+        <a href="/">
+            <h2 class="nav__title">Eclectic Saddlebag</h2>
+        </a>
+
+        <ul class="nav__social-icons">
+            <li><a target="_blank" href="mailto:chuck@eclecticsaddlebag.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a target="_blank" href="https://github.com/eclectic-coding"><i class="fab fa-github"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/EclecticCoding"><i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/dev-chuck-smith/"><i
+                            class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+
+    <p>
+        {{ site.email }}
+    </p>
+
 </nav>
