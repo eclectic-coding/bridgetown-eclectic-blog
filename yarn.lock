@@ -4442,10 +4442,10 @@ webpack-cli@^4.7.2:
     v8-compile-cache "^2.2.0"
     webpack-merge "^5.7.3"
 
-webpack-manifest-plugin@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/webpack-manifest-plugin/-/webpack-manifest-plugin-4.0.0.tgz#2157c853f3fa03f8cbaae59e92c021a54dce562c"
-  integrity sha512-nUj1TXLMa9Z3YC7klzt5VVyECgeMGGhlDpHvADAj2sj4Q4xSDKvHRWIQUMvsm4FPqiU4UDLjGbdEREYRFBggSA==
+webpack-manifest-plugin@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/webpack-manifest-plugin/-/webpack-manifest-plugin-4.0.1.tgz#425e37caf7580fc02a4650d8405387e91299b233"
+  integrity sha512-b4SLlTkvXEZQh0M/HUH1z9jiwdapjsMbOqlHJH/0/Ic9dpGHmf+X36GeOpFqn8Oz64RucaOKwVSmsNhfw3Cr2w==
   dependencies:
     tapable "^2.0.0"
     webpack-sources "^2.2.0"
