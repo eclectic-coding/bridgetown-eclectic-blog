@@ -23,7 +23,7 @@
     "concurrently": "^7.6.0",
     "css-loader": "^6.7.2",
     "file-loader": "^6.2.0",
-    "mini-css-extract-plugin": "^2.6.1",
+    "mini-css-extract-plugin": "^2.7.0",
     "node-sass": "^7.0.3",
     "prism-themes": "^1.9.0",
     "sass-loader": "^13.1.0",
